@@ -1,0 +1,6 @@
+{
+  "name": "Laundry Pesantren",
+  "description": "Aplikasi PWA manajemen operasional laundry internal pondok pesantren",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

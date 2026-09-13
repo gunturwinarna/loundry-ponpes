@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="primaryGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#059669" />
+      <stop offset="100%" stop-color="#047857" />
+    </linearGradient>
+    <linearGradient id="drumGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#34d399" stop-opacity="0.9" />
+      <stop offset="100%" stop-color="#059669" stop-opacity="0.3" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="110" fill="url(#primaryGrad)"/>
+  <!-- Washing Machine Body -->
+  <rect x="96" y="96" width="320" height="320" rx="32" fill="#ffffff" />
+  <!-- Top Panel -->
+  <rect x="120" y="120" width="272" height="40" rx="10" fill="#f1f5f9" />
+  <!-- Controls -->
+  <circle cx="145" cy="140" r="10" fill="#10b981" />
+  <circle cx="175" cy="140" r="6" fill="#94a3b8" />
+  <circle cx="200" cy="140" r="6" fill="#94a3b8" />
+  <rect x="330" y="132" width="46" height="16" rx="4" fill="#059669" />
+  <!-- Main Outer Drum Door -->
+  <circle cx="256" cy="272" r="105" fill="#f8fafc" stroke="#cbd5e1" stroke-width="8" />
+  <!-- Glass Window -->
+  <circle cx="256" cy="272" r="82" fill="url(#drumGrad)" />
+  <!-- Water Swirl / Islamic Star Crescent Accent -->
+  <path d="M210,270 Q240,240 270,270 T310,265" fill="none" stroke="#ffffff" stroke-width="7" stroke-linecap="round"/>
+  <path d="M225,295 Q250,275 285,295" fill="none" stroke="#ffffff" stroke-width="6" stroke-linecap="round" opacity="0.8"/>
+  <circle cx="256" cy="235" r="10" fill="#ffffff" opacity="0.9"/>
+</svg>
